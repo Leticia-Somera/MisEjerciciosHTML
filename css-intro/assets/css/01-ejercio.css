@@ -1,0 +1,41 @@
+h1 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: rgb(0, 128, 68);
+}
+
+.lineaitalica {
+    color: white;
+    font-style: italic;   
+}
+
+.lineanormal {
+    color: rgb(241, 209, 138);
+    font-size: 17px;   
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.lineanaranja {
+    color: orange;
+    font-size: 17px;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+}
+
+.linearosa {
+    color: rgb(202, 15, 77);
+    font-size: 17px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.lineablancait {
+    color: white;
+    font-size: 17spx; 
+}
+
+.creditos {
+    text-align: center;
+    font-style: italic;
+}
+

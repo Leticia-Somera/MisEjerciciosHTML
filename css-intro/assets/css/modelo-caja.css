@@ -1,0 +1,48 @@
+body {
+    background-image: url(https://image.freepik.com/vector-gratis/ditsy-fondo-estampado-floral_23-2148408533.jpg);
+    
+    /*Para evitar que se repita el patrón
+    background-repeat: no-repeat;
+
+    Para extender el tamaño de la imagen
+    background-size: cover; */
+}
+
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.subtitle {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*Se delimitan espacios en forma de caja con el ancho y largo que indicamos en pixeles*/
+.caja {
+    width: 300px;
+    height: 300px;
+    font-size: 50px;
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: 20px;
+    /*border radius redondea esquinas de las cajas*/
+    border-radius: 50%;
+    }
+
+.rojo {
+    /*background-color: red; Cambia el fondo de la caja */
+    /*border-top: 5px dotted red; 
+    Solo le da borde a un lado de la caja
+    el borde es de 5 pixeles
+    dotted/solid/dashed son diferentes estilos de borde*/
+    border: 5px solid red;
+}
+
+.verde {
+    /*background-color: green;*/
+    border: 5px solid green;
+}
+
+.azul {
+    /*background-color: blue;*/
+    border: 5px solid blue;
+}

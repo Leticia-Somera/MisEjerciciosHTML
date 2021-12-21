@@ -1,0 +1,14 @@
+.formulario {
+    border: 1px solid red;
+}
+
+.clase_nombre {
+    /*background-color: blue;*/
+    border: 2px solid green;
+    border-radius: 2px ;
+}
+
+/*Aqui estamos llamando al ID con el #*/
+#password {
+    border: 2px dashed blue;
+}

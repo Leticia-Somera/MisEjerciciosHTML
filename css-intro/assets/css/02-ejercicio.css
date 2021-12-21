@@ -1,0 +1,29 @@
+h1 {
+    text-align: right;
+}
+
+body {
+    background-color: rgb(189, 194, 228);
+}
+
+.narbold {
+    color: rgb(255, 94, 0);
+    font-weight: bold;
+}
+
+.narnormal {
+    color: rgb(255, 94, 0);
+}
+
+.verde {
+    color: green;
+    background-color: white;
+    font-style: italic;
+}
+
+.creditos {
+    font-size: 12px;
+    text-align: center;
+    font-style: italic;
+}
+

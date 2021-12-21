@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="assets/css/ejercicio-1.css">
+   
+    <title>Ejericio formulario</title>
+</head>
+<body>
+
+    
+    <form class="caja">
+
+        <p class="titulos">Datos del comprador</p>
+        
+        <div class="nombre">
+            <label for="nombre">Nombre           
+            </label>
+            <input             
+            id="nombre" 
+            type="text" 
+            name="nombre" 
+            placeholder="Escribir tu nombre completo"
+            required
+            />
+        </div>
+
+        <div class="correo">
+            <label 
+            for="correo">Email
+            </label>
+
+            <input 
+            id="correo" 
+            type="email"
+            name="correo"
+            placeholder="ejemplo@um.es"
+            required
+            />
+        </div>
+
+        <div class="telefono">
+            <label for="telefono">Teléfono          
+            </label>
+            <input             
+            id="telefono" 
+            type="number" 
+            name="telefono" 
+            placeholder="Ej. +527225572870"
+            required
+            />
+        </div>
+
+        <div class="pais">
+            <label for="pais">País           
+            </label>
+            <input             
+            id="pais" 
+            type="text" 
+            name="pais"             
+            required
+            />
+        </div>       
+
+   
+    
+    <br>
+    <p class="titulos">Datos de tarjeta de crédito o débito</p>
+
+
+        <div class="tarjeta">
+            <label for="tarjeta">Número          
+            </label>
+            <input             
+            id="tarjeta" 
+            type="number" 
+            name="tarjeta" 
+            placeholder="Ej. 1111 2222 3333 4444"
+            required
+            />
+        </div>
+
+        <div class="nombretar">
+            <label for="nombretar">Nombre           
+            </label>
+            <input             
+            id="nombretar" 
+            type="text" 
+            name="nombretar" 
+            placeholder="Nombre que figura en la tarjeta"
+            required
+            />
+        </div>
+
+        <br>
+
+        <p>--------------------------------</p>
+
+        <div class="boton">            
+            <input             
+            id="boton" 
+            type="button" 
+            value="Confirmar pedido" 
+            
+            />
+        </div>
+
+
+
+    </form>
+    
+</body>
+</html>

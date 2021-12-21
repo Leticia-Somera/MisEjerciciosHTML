@@ -1,0 +1,48 @@
+label {
+    display: inline-block;
+    width: 90px; 
+    margin-left: 70px;
+    margin-bottom: 7px;
+} 
+
+.titulos  {
+    color: white;
+    text-indent: 30px;
+}
+
+
+.caja {
+    color: white;
+    align-items: center;
+    width: 380px;
+    height: 400px;      
+    padding: 15px;
+    border: 10px solid #B0C4DE;
+    background-color: #008000;    
+    border-radius: 10px; 
+   /* text-indent: 70px;*/*/
+}
+
+#nombre {
+    border: 2px solid red;    
+}
+
+#correo {
+    border: 2px solid red;
+}
+
+#telefono {
+    border: 2px solid red;
+}
+
+#pais {
+    border: 2px solid red;
+}
+
+#tarjeta {
+    border: 2px solid red;
+}
+
+#nombretar {
+    border: 2px solid red;
+}

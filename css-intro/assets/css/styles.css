@@ -1,0 +1,43 @@
+        /*Así se comenta dentro de style*/
+
+        /*Este es un selector de clase (se inició en index)*/
+        .encabezado {
+
+           
+            /*font-size para cambiar tamaño de fuente*/
+            font-size: 40px;
+            /*color para cambiar el color de fuente*/
+            color: #b90f42;
+            /*background-color para cambiar el color de fondo*/
+            background-color: black;
+            /*text-align nos permite alinear texto*/
+            text-align: center;
+            /*text transform para colocar todo el texto del encabezado en mayúsculas, minúsculas, etc. */
+            text-transform: uppercase;
+        }
+    
+        body {
+            background-color: rgb(64, 31, 155);
+        }
+        
+        /*Estilo en cascada: Los atributos que se colocan al final, son los que toma cono válidos, aunque esto no aplica a las clases por su jerarquía*/
+
+        #texto {
+            color: blue;
+            background-color: crimson;
+            font-size: 24px;
+            font-style: italic;
+
+        .texto {
+            color: white;
+            background-color: black;
+        }
+        p {
+            color: white;
+            background-color: dimgray;
+        }
+
+        p {
+            color: yellow;
+            background-color: teal;
+        }

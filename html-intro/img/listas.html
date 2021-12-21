@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>   
+</head>
+<body>
+     <!-- Lista no ordenada. Se usan por ejemplo para los menús -->
+    <ul>
+        <li>Uno</li>
+        <li>Dos</li>
+        <li>Tres</li>
+        <li>Cuatro</li>
+    </ul>
+
+     <!-- Lista ordenada -->
+     <ol>
+        <li>Uno</li>
+        <li>Dos</li>
+        <li>Tres</li>
+     </ol>
+
+     <!-- Podemos determinar la numeración de la lista -->
+     <ol style="list-style-type: lower-greek;">
+        <li>Uno</li>
+        <li>Dos</li>
+        <li>Tres</li>
+
+        <!-- Lista dentro de la lista -->
+        <ol style="list-style-type: lower-alpha;">
+            <li>Letra 1</li>
+            <li>Letra 2</li>
+        </ol>
+     </ol>
+
+     <!-- Con start podemos indicar desde qué número/letra se inicia la lista -->
+     <ol start="5">
+        <li>Uno</li>
+        <li>Dos</li>
+        <li>Tres</li>
+
+        <!-- Lista dentro de la lista -->
+        <ol start="5" style="list-style-type: lower-alpha;">
+            <li>Letra 1</li>
+            <li>Letra 2</li>
+        </ol>
+     </ol>
+
+</body>
+</html>
