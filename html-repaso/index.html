@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+    <html lang="es">
+        <head>
+            <meta charset="UTF'8">
+            <link rel="stylesheet" href="assets/css/style.css">
+            <title>Repaso</title>
+        </head>
+
+        <body>
+
+            <h1>Repaso HTML</h1>
+
+            <h2 id="subtitulo">Formularios</h2>
+
+            <form>
+                <fieldset>
+                    <legend>Datos</legend>
+                    <div>
+                        <label for="nombre">Nombre</label>
+                        <input 
+                        type="text"                         
+                        name="nombre" 
+                        id="nombre"
+                        placeholder="Ingrese su nombre"
+                        />
+                        
+                    </div>
+
+                    <div>
+                        <label for="nombre">Apellido</label>
+                        <input 
+                        type="text"                         
+                        name="apellido" 
+                        id="apellido"
+                        placeholder="Ingrese su apellido"
+                        />                        
+                    </div>
+                    <div>
+                        <label for="comentario">Comentario</label>
+                        <textarea 
+                        name="comentario" 
+                        id="comentario" 
+                        cols="30" 
+                        rows="10">                            
+                        </textarea>
+                    </div>
+                    <div>
+                        <input 
+                        type="button" 
+                        value="Enviar"/>                        
+                    </div>
+                </fieldset>
+            </form>
+
+            <h2>Tablas</h2>
+            <table>
+                <thead>
+                    <!--colspan-->
+                    <!--rowspan-->
+                    <tr>
+                        <th>Cabecera1</th>
+                        <th>Cabecera2</th>
+                    </tr>                    
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>A</td>
+                        <td>B</td>
+                    </tr>
+                </tbody> 
+                <tfoot>
+                    <tr>
+                        <td>Pie1</td>
+                        <td>Pie2</td>
+                    </tr>
+                </tfoot>
+            </table>
+
+
+            <h2>Líneas y bloques</h2>
+
+            <!-- inline: solo ocupa el espacio contenido -->
+            <a class="enlace" href="servicios.html" target="_blank">Enlace1</a>
+            <a class="enlace" href="servicios.html" target="_blank">Enlace2</a>
+
+            <!-- block: Elementos en bloque -->
+            <span class="enlace">Este es un span</span>
+            <p id="bloque">Este es un párrafo</p>
+            <h1 id="bloque">titulo</h1>
+            <h2 id="bloque">subtitulo h2</h2>
+            <h6 id="bloque">subtitulo h6</h6>
+            <div id="bloque">Este es un div</div>
+
+                        
+            <h2>Enlaces</h2>
+            <a href="servicios.html" target="_blank"><button>Hola</button></a>
+            <a href="servicios.html"><img src="https://media.istockphoto.com/photos/womans-hand-holding-a-rich-frothy-hot-latte-in-a-white-mug-with-the-picture-id1345402332?b=1&k=20&m=1345402332&s=170667a&w=0&h=Fn67RN2T_RWntfgBhbS-bmamjdtNVQthXYyIlYOHlzU=" alt="Taza" width="300"></a>   
+
+            <a href="#subtitulo">Ir arriba</a>
+
+        </body>
+    </html> 
